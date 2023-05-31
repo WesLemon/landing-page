@@ -81,14 +81,17 @@ button,
     padding: 60px 10%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 10%;
 }
 
-.hero .text {
-    width: 50%;
-}
-
+.hero .text,
 .hero .image {
-    width: 50%
+    width: 45%;
+}
+
+.hero .image img {
+    max-width: 80%;
 }
 
 footer {
@@ -98,4 +101,17 @@ footer {
     padding: 16px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    align-self: flex-start;
+    border-radius: 5px;
+    border: #1F2937;
+    padding: 4px 24px;
 }
