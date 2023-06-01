@@ -107,7 +107,7 @@ h3 {
 }
 
 .image {
-    width: 12%;
+    width: 250px;
 }
 
 .image p {
@@ -137,12 +137,12 @@ h3 {
     font-style: italic;
     color: #1F2937;
     margin: 0px;
-    width: 50%;
+    width: 900px;
 }
 
 .quote .attribution {
     text-align: right;
-    width: 50%;
+    width: 900px;
     font-weight: bolder;
     font-size: 24px;
 }
