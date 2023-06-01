@@ -147,10 +147,38 @@ h3 {
     font-size: 24px;
 }
 
+.c2a_container {
+    display: flex;
+    flex: 1;
+    padding: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
 .call2action {
     background-color: #3882F6;
     color: #F9FAF8;
-    flex: 1;
+    width: 900px;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4,
+.call2action p {
+    margin: 0px;
+    color: #F9FAF8;
+}
+
+.call2action button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    border: 1px solid #F9FAF8;
 }
 
 footer {
