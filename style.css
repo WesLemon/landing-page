@@ -18,15 +18,18 @@ header {
     align-items: center;
 }
 
-header h2 {
+h2 {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 header ul {
     display: flex;
     list-style-type: none;
     gap: 30px;
+    padding: 0px;
+    margin: 0px;
 }
 
 header ul a {
@@ -41,6 +44,7 @@ header ul a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .hero .text {
@@ -61,7 +65,7 @@ header ul a {
     border: transparent;
 }
 
-.hero .text h1 {
+h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -71,6 +75,7 @@ header ul a {
 .hero .text p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0px;
 }
 
 .hero img {
@@ -79,6 +84,41 @@ header ul a {
 
 .information {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image {
+    width: 10%;
+}
+
+.image p {
+    text-align: center;
+    color: #1F2937;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.image img {
+    width: 100%;
 }
 
 .quote {
